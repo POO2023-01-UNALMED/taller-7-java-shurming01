@@ -52,7 +52,7 @@ public class Libro extends Escrito{
 	
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
-		palabrasPagina = palabrasPagina*1;
+		palabrasPagina = palabrasPagina*1198;
 		return palabrasPagina;
 	}
 
