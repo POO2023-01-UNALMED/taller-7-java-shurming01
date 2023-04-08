@@ -3,7 +3,7 @@ package comunicacion;
 public class Tesis extends Escrito {
 
 	private String idea;
-	private String [] argumentos = null;// Se declara un atributo de tipo arreglo de tamaño fijo sin definir su tamaño
+	private String [] argumentos = null;
 	private String conclusion;
 	private String referencias;
 	private String interpretacion;
