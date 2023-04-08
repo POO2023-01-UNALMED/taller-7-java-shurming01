@@ -46,14 +46,14 @@ public class Periodico extends Escrito{
 	@Override
 	String interpretacion() {
 		
-		return this.interpretacion;
+		return interpretacion;
 	}
 	@Override
 	public String toString() {
 		String periodico = this.getOrigen() + "\n";
-		periodico += this.getTitulo() + "\n";
-		periodico += this.getAutor() + "\n";
-		periodico += this.getPaginas() + "\n";
+		periodico += getTitulo() + "\n";
+		periodico += getAutor() + "\n";
+		periodico += getPaginas() + "\n";
 		periodico += this.fecha + "\n";
 		periodico += this.primicia;
 		

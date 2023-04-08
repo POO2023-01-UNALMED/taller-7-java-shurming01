@@ -89,17 +89,17 @@ public class Tesis extends Escrito {
 	@Override
 	String interpretacion() {
 		
-		return this.interpretacion;
+		return interpretacion;
 	}
 
 	@Override
 	public String toString() {
 		String tesis = this.getOrigen() + "\n";
-		tesis += this.getTitulo() + "\n";
-		tesis += this.getAutor() + "\n";
-		tesis += this.getPaginas() + "\n";
+		tesis += getTitulo() + "\n";
+		tesis += getAutor() + "\n";
+		tesis += getPaginas() + "\n";
 		tesis += this.idea + "\n";
-		tesis+= this.argumentos.length + "\n";
+		tesis += this.argumentos.length + "\n";
 		tesis += this.conclusion + "\n";
 		tesis += this.referencias;
 		

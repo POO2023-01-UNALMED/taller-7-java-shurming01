@@ -62,13 +62,14 @@ public class Libro extends Escrito{
 
 	@Override
 	public String toString() {
-		String libro = this.getOrigen() + "\n";
-		  libro += this.getTitulo() + "\n";
-		  libro += this.getAutor() + "\n";
-		  libro += this.getPaginas() + "\n";
+		String libro = getOrigen() + "\n";
+		  libro += getTitulo() + "\n";
+		  libro += getAutor() + "\n";
+		  libro += getPaginas() + "\n";
 		  libro += this.co_autor + "\n";
 		  libro += this.editorial + "\n";
 		  libro += this.edicion;
+		  
 		  return libro;
 	}
 

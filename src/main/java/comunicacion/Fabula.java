@@ -34,12 +34,12 @@ public class Fabula extends Escrito{
 	
 	@Override
 	String interpretacion() {
-		return this.interpretacion;
+		return interpretacion;
 	}
 	
 	@Override
 	public String toString() {
-	 String fabula = this.getOrigen() + "\n";
+	  String fabula = this.getOrigen() + "\n";
 	  fabula += this.getTitulo() + "\n";
 	  fabula += this.getAutor() + "\n";
 	  fabula += this.getPaginas() + "\n";
