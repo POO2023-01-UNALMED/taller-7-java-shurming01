@@ -3,9 +3,9 @@ package comunicacion;
 
 public class Alfabeto extends Pictograma{
 	
-     String[] letras =null;
+     private String[] letras =null;
     
-	 String interpretacion;
+	 private String interpretacion;
 	
 	public Alfabeto(String origen, String[] letras, String interpretacion) {
 		super(origen);
@@ -35,7 +35,7 @@ public class Alfabeto extends Pictograma{
 	}
 	
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 

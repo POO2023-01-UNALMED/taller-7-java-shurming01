@@ -44,7 +44,7 @@ public class Periodico extends Escrito{
 		return palabrasPagina*10;
 	}
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		
 		return interpretacion;
 	}
