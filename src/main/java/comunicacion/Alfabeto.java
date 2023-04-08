@@ -4,7 +4,7 @@ package comunicacion;
 public class Alfabeto extends Pictograma{
 	
     private String[] letras =null;
-	//private ArrayList<String> letras; 
+    
 	private String interpretacion;
 	
 	public Alfabeto(String origen, String[] letras, String interpretacion) {
@@ -42,7 +42,7 @@ public class Alfabeto extends Pictograma{
 	@Override
 	public String toString() {
 		String letra = "";
-		for(int i = 0; i<= letras.length-1; i++) {
+		for(int i = 0; i<= letras.length-2; i++) {
 			
 			 letra += letras[i]+", ";
 		}
