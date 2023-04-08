@@ -3,9 +3,9 @@ package comunicacion;
 
 public class Alfabeto extends Pictograma{
 	
-    private String[] letras =null;
+     String[] letras =null;
     
-	private String interpretacion;
+	 String interpretacion;
 	
 	public Alfabeto(String origen, String[] letras, String interpretacion) {
 		super(origen);
